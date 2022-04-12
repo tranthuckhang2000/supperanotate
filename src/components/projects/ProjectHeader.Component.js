@@ -12,7 +12,9 @@ export default function ProjectHeader() {
     { name: "Workflow", link: "" },
   ];
   return (
+    // Header in the main content of Admin page
     <div className="project-header">
+      {/* Subpages */}
       <div className="project-header-top-bar">
         <div className="content-header-top-bar">
           <div className="item-nav">
@@ -40,6 +42,7 @@ export default function ProjectHeader() {
           <i className="fa-solid fa-chevron-down"></i>
         </div>
       </div>
+      {/* Main navigation in data page */}
       <div className="project-header-navbar">
         <div className="nav-item active">
           <a href="" alt="">
@@ -54,9 +57,9 @@ export default function ProjectHeader() {
           </div>
         ))}
       </div>
+      {/* Main content in Data page*/}
       <div className="project-content">
-        <Data/>
-
+        <Data />
       </div>
     </div>
   );

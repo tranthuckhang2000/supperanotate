@@ -20,7 +20,9 @@ export default function Data() {
     },
   ];
   return (
+    // images can be edited in Image Editor page
     <div className="project-content-data">
+      {/* Looking-for form image name*/}
       <div className="looking-for">
         <div className="search">
           {/* <label> */}
@@ -37,9 +39,13 @@ export default function Data() {
           <i className="fa-solid fa-filter"></i>
         </div>
       </div>
+      {/* All item image */}
       <div className="project-table-content">
         <div className="main-content">
-          <div className="project-table-item header" style={{paddingTop: "13px"}}>
+          <div
+            className="project-table-item header"
+            style={{ paddingTop: "13px" }}
+          >
             <div className="check">
               <input
                 type="checkbox"
@@ -130,8 +136,8 @@ export default function Data() {
             </button>
           </div>
           <div className="go-to">
-              <label>Go to</label>
-              <input type="text"></input>
+            <label>Go to</label>
+            <input type="text"></input>
           </div>
         </div>
 

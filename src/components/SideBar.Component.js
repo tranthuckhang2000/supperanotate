@@ -3,7 +3,7 @@ export default function SideBar() {
   return (
     <div className="sidebar">
       <div className="nav-main">
-        <div className="top-nav">
+        {/* <div className="top-nav">
           <div className="nav-main-item">
             <i class="fa-solid fa-layer-group active"></i>
             <span>Project</span>
@@ -25,8 +25,11 @@ export default function SideBar() {
           <div className="nav-main-item">
             <i className="fa-solid fa-arrow-right"></i>
           </div>
-        </div>
+        </div> */}
+
+        {/* SideBar */}
         <div className="nav-main-hover collapse-slide-bar">
+          {/* page name item in slide bar */}
           <div className="top-nav">
             <div className="nav-main-item active">
               <i className="fa-solid fa-layer-group"></i>
@@ -45,8 +48,9 @@ export default function SideBar() {
               <span>Team Settings</span>
             </div>
           </div>
+          {/* width extension */}
           <div className="bot-nav">
-            <div className="nav-main-item" style={{cursor: "pointer"}}>
+            <div className="nav-main-item" style={{ cursor: "pointer" }}>
               <i className="fa-solid fa-arrows-left-right-to-line"></i>{" "}
               <span>Expand</span>
             </div>

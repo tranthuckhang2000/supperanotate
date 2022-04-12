@@ -4,10 +4,13 @@ export default function Header() {
   return (
     <div className="header">
       <div className="information">
+        {/* Logo and name team*/}
         <div className="information-left">
+          {/* Logo page */}
           <div className="web-icon">
             <img src={logo} alt="icon web"></img>
           </div>
+          {/* Name team */}
           <div className="des">
             <span className="text-des">
               <span>My Team</span>
@@ -16,6 +19,7 @@ export default function Header() {
             <i className="fa-solid fa-chevron-down"></i>
           </div>
         </div>
+        {/* User information */}
         <div className="information-right">
           <img
             className="my"
