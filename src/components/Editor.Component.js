@@ -253,7 +253,7 @@ export default function Editor() {
           </div>
           {/* right component */}
           <div className="right-content">
-            {/* top function in right component */}
+            {/* top action in right component */}
             <div className="top-action">
               <i className="fa-solid fa-trash-can"></i>
               <i className="fa-solid fa-minimize"></i>
